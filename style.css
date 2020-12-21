@@ -1,0 +1,130 @@
+body {
+    background-color: #DED1C8;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --body-cl:  #DED1C8;
+    --header-cl: #FFFFFF;
+    --btn-label-cl: #FF5C01;
+    --bg-cl: #F8F4F1;
+    --tx-cl: #484848;
+}
+.box_container {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+}
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 80px;
+    margin: 0px 45px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.logo p {
+    color: #FF5C01;
+    font-size: 1.2rem;
+}
+.logo span {
+    color: #484848;
+    font-size: 1.2rem;
+    font-weight: 750;
+}
+header nav ul {
+    display: flex;
+    margin-right: 100px;
+    list-style: none;
+}
+header nav ul a {
+    color: black;
+    margin-left: 50px;
+    font-size: 0.7vw;
+    text-decoration: none;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #F8F4F1;
+    margin: 0px 45px;
+}
+.feature .f_left_clum {
+    margin-left: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.f_left_clum .feature_post {
+    max-width: 90%;
+}
+.feature_post .feature_rated {
+    display: flex;
+    font-size: 0.75em;
+    align-items: center;
+}
+.feature_post .feature_rated p {
+    font-weight: 500;
+    color: #484848;
+}
+.feature_post .feature_rated span {
+    background-color: #FF5C01;
+    color: #FFFFFF;
+    text-align: center;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+    margin: 0px 3px;
+    padding: 7px 8px 5px;
+    font: 10px sans-serif;
+}
+.feature_post .feature_rated p {
+    font-weight: 500;
+    color: #484848;
+}
+.feature_post .feature_content {
+    color: #484848 ;
+    font: 1.7em / 1.5 sans-serif;
+    margin: 30px 0px;
+}
+.feature_post button {
+    background-color: #FF5C01;
+    color: #FFFFFF;
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+.feature .f_left_clum {
+    margin-left: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.feature .f_right_clum {
+    margin-right: 120px;
+    margin-bottom: 70px;
+}
+.feature .f_right_clum img {
+    width: 120%;
+}
